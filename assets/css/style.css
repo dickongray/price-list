@@ -1,0 +1,120 @@
+/* M A I N  S T R U C T U R E */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,800);
+html,
+body {
+  height: 100%;
+}
+body {
+  font-family: 'Open Sans',sans-serif;
+  font-size: 1.2em;
+  font-weight: 300;
+  letter-spacing: 0.15em;
+  color: #323232;
+  width: 100%;
+}
+a, a.active, a:active, a:focus, a:hover {
+  outline: 0;
+  text-decoration: none;
+  cursor: pointer
+}
+/* P R I C I N G */
+#pricing-table {
+  text-align: center;
+  margin-right: 0; 
+}
+#pricing-table {     
+  background: #fff;      
+  border: 1px solid #ddd;
+  color: #333;
+  padding: 1em; 
+  margin-right: 0;
+  margin-bottom: 1em;   
+}
+#pricing-table .plan:nth-child(1) {
+  -moz-border-radius: 5px 0 0 5px;
+  -webkit-border-radius: 5px 0 0 5px;
+  border-radius: 5px 0 0 5px;        
+}
+#pricing-table .plan:nth-child(4) {
+  -moz-border-radius: 0 5px 5px 0;
+  -webkit-border-radius: 0 5px 5px 0;
+  border-radius: 0 5px 5px 0;        
+}
+/* --------------- */ 
+#pricing-table h3 {
+  font-size: 2em;
+  font-weight: normal;
+  padding: 1em;
+  margin: -0.5em;
+  margin-bottom: 1em;
+  background-color: #eee;
+  background-image: -moz-linear-gradient(#fff,#eee);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#eee));    
+  background-image: -webkit-linear-gradient(#fff, #eee);
+  background-image: -o-linear-gradient(#fff, #eee);
+  background-image: -ms-linear-gradient(#fff, #eee);
+  background-image: linear-gradient(#fff, #eee);
+}
+#pricing-table .plan:nth-child(1) h3 {
+  -moz-border-radius: 5px 0 0 0;
+  -webkit-border-radius: 5px 0 0 0;
+  border-radius: 5px 0 0 0;       
+}
+#pricing-table .plan:nth-child(4) h3 {
+  -moz-border-radius: 0 5px 0 0;
+  -webkit-border-radius: 0 5px 0 0;
+  border-radius: 0 5px 0 0;       
+} 
+#pricing-table h3 span {
+  display: block;
+  font: bold 25px/100px Georgia, Serif;
+  color: #777;
+  background: #fff;
+  border: 5px solid #fff;
+  height: 100px;
+  width: 100px;
+  margin: 10px auto -65px;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  border-radius: 100px;
+  -moz-box-shadow: 0 5px 20px #ddd inset, 0 3px 0 #999 inset;
+  -webkit-box-shadow: 0 5px 20px #ddd inset, 0 3px 0 #999 inset;
+  box-shadow: 0 5px 20px #ddd inset, 0 3px 0 #999 inset;
+}
+/* --------------- */
+#pricing-table ul {
+  margin: 6em 0 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+#pricing-table li {
+  border-top: 1px solid #ddd;
+  padding: 10px 0;
+}
+.plan p {
+  padding-top: 2.5em;
+  text-align: left;
+  line-height: 1.6em;
+  letter-spacing: 0.15em;
+}
+/* --------------- */
+#pricing-table .signup {
+  position: relative;
+  padding: 0.9em 1.9em;
+  margin: 1.3em 0 0 0;  
+  color: #fff;
+  font: 1em 'Open Sans', Helvetica;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;       
+  background: #48d991;    
+}
+#pricing-table .signup:hover {
+  background: #0684C4;
+}
+#pricing-table .signup:active, #pricing-table .signup:focus {
+  background: #0684C4;      
+  top: 2px;
+}
+/* --------------- */
